@@ -1,9 +1,0 @@
-\babel@toc {english}{}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Analysis}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Scope}{2}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Requirements}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Functional Requirements}{3}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Non-Functional Requirements}{4}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Use-case Diagram}{4}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Use-case Description}{5}{section.2.4}%
