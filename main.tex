@@ -287,18 +287,18 @@ on making the four core catalog operations intuitive and reliable.
       hlines,
       vlines
       }
-      \textbf{Use-case field} & \textbf{Description}                                              \\
+      \textbf{Use-case field} & \textbf{Description}                                                    \\
 
-      Use case                & Edit game data                                                    \\
+      Use case                & Edit game data                                                          \\
       Summary                 & Allows the gamer to modify saved game details, such as the
-      title and genre, to update the game catalog.                                                \\
-      Actor                   & Gamer                                                             \\
+      title and genre, to update the game catalog.                                                      \\
+      Actor                   & Gamer                                                                   \\
       Precondition            &
       The gamer is part of the game library system.\par
-      The game information already exists in the user's database collection.                      \\
+      The game information already exists in the user's database collection.                            \\
       Postcondition           &
       The updated game information is saved to the system and displayed to
-      the gamer.                                                                                  \\
+      the gamer.                                                                                        \\
       Base sequence           &
       \begin{enumerate}
             \setlength{\itemsep}{0pt}
@@ -312,7 +312,7 @@ on making the four core catalog operations intuitive and reliable.
             \item The system updates the database with the new information.
             \item The system displays a confirmation message and shows the
                   updated game information.
-      \end{enumerate}                              \\
+      \end{enumerate}                                    \\
       Branch sequence         &
       \textit{Alternative during steps 1--3 of the base sequence:}
       \begin{enumerate}
@@ -324,7 +324,7 @@ on making the four core catalog operations intuitive and reliable.
             \item The system displays the original game details without
                   making changes.
             \item The use case ends.
-      \end{enumerate}                                  \\
+      \end{enumerate}                                        \\
       Exception sequence      &
       \textit{Technical error during steps 1--5 of the base sequence:}
       \begin{enumerate}
@@ -337,11 +337,10 @@ on making the four core catalog operations intuitive and reliable.
             \item The system aborts the database transaction, leaving the
                   original game information unchanged.
             \item The postconditions cannot be realized, and the use case ends.
-      \end{enumerate}                          \\
-      Sub-use case            & Find a game                                                       \\
-      Note                    & If a technical issue closes the game library, the new information
-      is not saved and the previous details remain in the catalog. The gamer
-      must redo the edits to update the game information.                                         \\
+      \end{enumerate}                                \\
+      Sub-use case            & Find a game                                                             \\
+      Note                    & If the game library was accidentally closed due to technical issues,
+      the new information will be saved in local storage and the gamer will be able to continue editing \\
 \end{longtblr}
 
 \begin{longtblr}[
